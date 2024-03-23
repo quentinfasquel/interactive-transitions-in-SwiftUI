@@ -1,0 +1,24 @@
+{
+  "originHash" : "b078e88b38806fa123785813fa39f9fc53e605dc581288f13202ea26f6583cf4",
+  "pins" : [
+    {
+      "identity" : "swiftui-custom-navigation-stack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/quentinfasquel/swiftui-custom-navigation-stack",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f61b26c1022e000c18716c4d3e677da5295322fb"
+      }
+    },
+    {
+      "identity" : "swiftui-matched-geometry-presentation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/quentinfasquel/swiftui-matched-geometry-presentation",
+      "state" : {
+        "branch" : "main",
+        "revision" : "50145b25688565400f2f7f6e530f97e55e4a1245"
+      }
+    }
+  ],
+  "version" : 3
+}

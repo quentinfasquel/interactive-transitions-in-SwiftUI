@@ -7,19 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		667A2E9F2B9B599B009BAED3 /* Interactive_transitions_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A2E9E2B9B599B009BAED3 /* Interactive_transitions_SwiftUIApp.swift */; };
-		667A2EA12B9B599B009BAED3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A2EA02B9B599B009BAED3 /* ContentView.swift */; };
+		66532C132BAEA623000A58B4 /* 2-b-CornerRadius-Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66532C122BAEA623000A58B4 /* 2-b-CornerRadius-Animation.swift */; };
+		66532C152BAEA9F3000A58B4 /* 1-Interactive-ScaleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66532C142BAEA9F3000A58B4 /* 1-Interactive-ScaleTransition.swift */; };
+		66532C312BAEB00E000A58B4 /* 2-c-CornerRadius-MatchedGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66532C302BAEB00E000A58B4 /* 2-c-CornerRadius-MatchedGeometry.swift */; };
+		66532C332BAF045D000A58B4 /* 3-a-MatchedGeometry-isSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66532C322BAF045D000A58B4 /* 3-a-MatchedGeometry-isSource.swift */; };
+		66532C352BAF0A14000A58B4 /* 3-c-MatchedGeometry-interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66532C342BAF0A14000A58B4 /* 3-c-MatchedGeometry-interactive.swift */; };
+		66532C372BAF0AB4000A58B4 /* 1-a-MatchedGeometry-Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66532C362BAF0AB4000A58B4 /* 1-a-MatchedGeometry-Navigation.swift */; };
+		66532C392BAF105B000A58B4 /* 1-b-MatchedGeometry-Navigation-Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66532C382BAF105B000A58B4 /* 1-b-MatchedGeometry-Navigation-Anchor.swift */; };
+		66532C3B2BB0C223000A58B4 /* 2-Hero-Layer-Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66532C3A2BB0C223000A58B4 /* 2-Hero-Layer-Presentation.swift */; };
+		667A2E9F2B9B599B009BAED3 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A2E9E2B9B599B009BAED3 /* AppMain.swift */; };
+		667A2EA12B9B599B009BAED3 /* 2-a-MatchedGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A2EA02B9B599B009BAED3 /* 2-a-MatchedGeometry.swift */; };
 		667A2EA32B9B599C009BAED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667A2EA22B9B599C009BAED3 /* Assets.xcassets */; };
 		667A2EA72B9B599C009BAED3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667A2EA62B9B599C009BAED3 /* Preview Assets.xcassets */; };
+		66B606C02BDCF8E700E438A8 /* MatchedGeometryPresentation in Frameworks */ = {isa = PBXBuildFile; productRef = 66B606BF2BDCF8E700E438A8 /* MatchedGeometryPresentation */; };
+		66B606C32BDCF91800E438A8 /* CustomNavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = 66B606C22BDCF91800E438A8 /* CustomNavigationStack */; };
+		66BB59132BCDD40C000E499A /* 3-CustomNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BB59122BCDD40C000E499A /* 3-CustomNavigationStack.swift */; };
+		66BB59162BCDD49F000E499A /* CustomNavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = 66BB59152BCDD49F000E499A /* CustomNavigationStack */; };
+		66BB59182BCDD49F000E499A /* MatchedGeometryPresentation in Frameworks */ = {isa = PBXBuildFile; productRef = 66BB59172BCDD49F000E499A /* MatchedGeometryPresentation */; };
+		66BD778A2BB6312000B69BD5 /* 2-CustomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD77892BB6312000B69BD5 /* 2-CustomSheet.swift */; };
+		66BD778C2BB764F200B69BD5 /* View_onAnimationCompleted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD778B2BB764F200B69BD5 /* View_onAnimationCompleted.swift */; };
+		66BD778E2BB7679100B69BD5 /* View_dismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD778D2BB7679100B69BD5 /* View_dismissButton.swift */; };
+		66BD77902BB773BE00B69BD5 /* Binding_not.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD778F2BB773BE00B69BD5 /* Binding_not.swift */; };
+		66BD77922BB7FA8600B69BD5 /* View_makeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD77912BB7FA8600B69BD5 /* View_makeButton.swift */; };
+		66BD77942BB820F900B69BD5 /* RedactedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD77932BB820F900B69BD5 /* RedactedTextView.swift */; };
+		66BD77962BB840B100B69BD5 /* View_overlayImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD77952BB840B100B69BD5 /* View_overlayImage.swift */; };
+		66BD77992BB9630700B69BD5 /* Color_mix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD77982BB9630700B69BD5 /* Color_mix.swift */; };
+		66BD779C2BB9E26500B69BD5 /* 2-Interactive-Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665958652BA733B0003B156B /* 2-Interactive-Animation.swift */; };
+		66BF08F82BB372C80083C0A0 /* CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BF08F72BB372C80083C0A0 /* CaseIterable.swift */; };
+		66BF08FA2BB3738F0083C0A0 /* Button_SystemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BF08F92BB3738F0083C0A0 /* Button_SystemImage.swift */; };
+		66BFE75F2B9CAFC8008897CC /* 1-Animation-Transition-Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFE75E2B9CAFC8008897CC /* 1-Animation-Transition-Transaction.swift */; };
+		66C7BB9C2BC2D005006B7162 /* 3-MatchedGeometryPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7BB9B2BC2D005006B7162 /* 3-MatchedGeometryPresentation.swift */; };
+		66EBEDF12BCA6AE1000ECDA9 /* 1-Pausable-Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBEDF02BCA6AE1000ECDA9 /* 1-Pausable-Animation.swift */; };
+		66EBEDF32BCBCE0F000ECDA9 /* 3-b-Transaction-MatchedGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBEDF22BCBCE0F000ECDA9 /* 3-b-Transaction-MatchedGeometry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66532C122BAEA623000A58B4 /* 2-b-CornerRadius-Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-b-CornerRadius-Animation.swift"; sourceTree = "<group>"; };
+		66532C142BAEA9F3000A58B4 /* 1-Interactive-ScaleTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-Interactive-ScaleTransition.swift"; sourceTree = "<group>"; };
+		66532C302BAEB00E000A58B4 /* 2-c-CornerRadius-MatchedGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-c-CornerRadius-MatchedGeometry.swift"; sourceTree = "<group>"; };
+		66532C322BAF045D000A58B4 /* 3-a-MatchedGeometry-isSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-a-MatchedGeometry-isSource.swift"; sourceTree = "<group>"; };
+		66532C342BAF0A14000A58B4 /* 3-c-MatchedGeometry-interactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-c-MatchedGeometry-interactive.swift"; sourceTree = "<group>"; };
+		66532C362BAF0AB4000A58B4 /* 1-a-MatchedGeometry-Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-a-MatchedGeometry-Navigation.swift"; sourceTree = "<group>"; };
+		66532C382BAF105B000A58B4 /* 1-b-MatchedGeometry-Navigation-Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-b-MatchedGeometry-Navigation-Anchor.swift"; sourceTree = "<group>"; };
+		66532C3A2BB0C223000A58B4 /* 2-Hero-Layer-Presentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-Hero-Layer-Presentation.swift"; sourceTree = "<group>"; };
+		665958652BA733B0003B156B /* 2-Interactive-Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-Interactive-Animation.swift"; sourceTree = "<group>"; };
 		667A2E9B2B9B599B009BAED3 /* Interactive-transitions-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interactive-transitions-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		667A2E9E2B9B599B009BAED3 /* Interactive_transitions_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_transitions_SwiftUIApp.swift; sourceTree = "<group>"; };
-		667A2EA02B9B599B009BAED3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		667A2E9E2B9B599B009BAED3 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
+		667A2EA02B9B599B009BAED3 /* 2-a-MatchedGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-a-MatchedGeometry.swift"; sourceTree = "<group>"; };
 		667A2EA22B9B599C009BAED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		667A2EA42B9B599C009BAED3 /* Interactive_transitions_SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Interactive_transitions_SwiftUI.entitlements; sourceTree = "<group>"; };
 		667A2EA62B9B599C009BAED3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66BB59122BCDD40C000E499A /* 3-CustomNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-CustomNavigationStack.swift"; sourceTree = "<group>"; };
+		66BD77892BB6312000B69BD5 /* 2-CustomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-CustomSheet.swift"; sourceTree = "<group>"; };
+		66BD778B2BB764F200B69BD5 /* View_onAnimationCompleted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_onAnimationCompleted.swift; sourceTree = "<group>"; };
+		66BD778D2BB7679100B69BD5 /* View_dismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_dismissButton.swift; sourceTree = "<group>"; };
+		66BD778F2BB773BE00B69BD5 /* Binding_not.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding_not.swift; sourceTree = "<group>"; };
+		66BD77912BB7FA8600B69BD5 /* View_makeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_makeButton.swift; sourceTree = "<group>"; };
+		66BD77932BB820F900B69BD5 /* RedactedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactedTextView.swift; sourceTree = "<group>"; };
+		66BD77952BB840B100B69BD5 /* View_overlayImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_overlayImage.swift; sourceTree = "<group>"; };
+		66BD77982BB9630700B69BD5 /* Color_mix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_mix.swift; sourceTree = "<group>"; };
+		66BF08F72BB372C80083C0A0 /* CaseIterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseIterable.swift; sourceTree = "<group>"; };
+		66BF08F92BB3738F0083C0A0 /* Button_SystemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_SystemImage.swift; sourceTree = "<group>"; };
+		66BFE75E2B9CAFC8008897CC /* 1-Animation-Transition-Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-Animation-Transition-Transaction.swift"; sourceTree = "<group>"; };
+		66C7BB9B2BC2D005006B7162 /* 3-MatchedGeometryPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-MatchedGeometryPresentation.swift"; sourceTree = "<group>"; };
+		66EBEDF02BCA6AE1000ECDA9 /* 1-Pausable-Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-Pausable-Animation.swift"; sourceTree = "<group>"; };
+		66EBEDF22BCBCE0F000ECDA9 /* 3-b-Transaction-MatchedGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-b-Transaction-MatchedGeometry.swift"; sourceTree = "<group>"; };
+		66FF63052BB3673E00B3EF65 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BB59162BCDD49F000E499A /* CustomNavigationStack in Frameworks */,
+				66B606C02BDCF8E700E438A8 /* MatchedGeometryPresentation in Frameworks */,
+				66B606C32BDCF91800E438A8 /* CustomNavigationStack in Frameworks */,
+				66BB59182BCDD49F000E499A /* MatchedGeometryPresentation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +108,14 @@
 		667A2E9D2B9B599B009BAED3 /* Interactive-transitions-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				667A2E9E2B9B599B009BAED3 /* Interactive_transitions_SwiftUIApp.swift */,
-				667A2EA02B9B599B009BAED3 /* ContentView.swift */,
-				667A2EA22B9B599C009BAED3 /* Assets.xcassets */,
-				667A2EA42B9B599C009BAED3 /* Interactive_transitions_SwiftUI.entitlements */,
-				667A2EA52B9B599C009BAED3 /* Preview Content */,
+				66C7BBA12BC2DA71006B7162 /* Components */,
+				66BF08F62BB372BA0083C0A0 /* Extensions */,
+				66BD779B2BB9B91200B69BD5 /* Supporting Files */,
+				667A2E9E2B9B599B009BAED3 /* AppMain.swift */,
+				66FF630E2BB36A0300B3EF65 /* Part-1 */,
+				66FF63072BB367F000B3EF65 /* Part-2 */,
+				66BD77972BB8CAC100B69BD5 /* Part-3 */,
+				66C7BBA02BC2D9A7006B7162 /* Part-4 */,
 			);
 			path = "Interactive-transitions-SwiftUI";
 			sourceTree = "<group>";
@@ -67,6 +126,83 @@
 				667A2EA62B9B599C009BAED3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66BD77972BB8CAC100B69BD5 /* Part-3 */ = {
+			isa = PBXGroup;
+			children = (
+				66532C142BAEA9F3000A58B4 /* 1-Interactive-ScaleTransition.swift */,
+				66BD77892BB6312000B69BD5 /* 2-CustomSheet.swift */,
+				66BB59122BCDD40C000E499A /* 3-CustomNavigationStack.swift */,
+			);
+			path = "Part-3";
+			sourceTree = "<group>";
+		};
+		66BD779B2BB9B91200B69BD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				667A2EA52B9B599C009BAED3 /* Preview Content */,
+				667A2EA22B9B599C009BAED3 /* Assets.xcassets */,
+				66FF63052BB3673E00B3EF65 /* README.md */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66BF08F62BB372BA0083C0A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				66BD778F2BB773BE00B69BD5 /* Binding_not.swift */,
+				66BF08F92BB3738F0083C0A0 /* Button_SystemImage.swift */,
+				66BF08F72BB372C80083C0A0 /* CaseIterable.swift */,
+				66BD77982BB9630700B69BD5 /* Color_mix.swift */,
+				66BD778D2BB7679100B69BD5 /* View_dismissButton.swift */,
+				66BD77912BB7FA8600B69BD5 /* View_makeButton.swift */,
+				66BD778B2BB764F200B69BD5 /* View_onAnimationCompleted.swift */,
+				66BD77952BB840B100B69BD5 /* View_overlayImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		66C7BBA02BC2D9A7006B7162 /* Part-4 */ = {
+			isa = PBXGroup;
+			children = (
+				66EBEDF02BCA6AE1000ECDA9 /* 1-Pausable-Animation.swift */,
+				665958652BA733B0003B156B /* 2-Interactive-Animation.swift */,
+			);
+			path = "Part-4";
+			sourceTree = "<group>";
+		};
+		66C7BBA12BC2DA71006B7162 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				66BD77932BB820F900B69BD5 /* RedactedTextView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		66FF63072BB367F000B3EF65 /* Part-2 */ = {
+			isa = PBXGroup;
+			children = (
+				66532C362BAF0AB4000A58B4 /* 1-a-MatchedGeometry-Navigation.swift */,
+				66532C382BAF105B000A58B4 /* 1-b-MatchedGeometry-Navigation-Anchor.swift */,
+				66532C3A2BB0C223000A58B4 /* 2-Hero-Layer-Presentation.swift */,
+				66C7BB9B2BC2D005006B7162 /* 3-MatchedGeometryPresentation.swift */,
+			);
+			path = "Part-2";
+			sourceTree = "<group>";
+		};
+		66FF630E2BB36A0300B3EF65 /* Part-1 */ = {
+			isa = PBXGroup;
+			children = (
+				66BFE75E2B9CAFC8008897CC /* 1-Animation-Transition-Transaction.swift */,
+				667A2EA02B9B599B009BAED3 /* 2-a-MatchedGeometry.swift */,
+				66532C122BAEA623000A58B4 /* 2-b-CornerRadius-Animation.swift */,
+				66532C302BAEB00E000A58B4 /* 2-c-CornerRadius-MatchedGeometry.swift */,
+				66532C322BAF045D000A58B4 /* 3-a-MatchedGeometry-isSource.swift */,
+				66EBEDF22BCBCE0F000ECDA9 /* 3-b-Transaction-MatchedGeometry.swift */,
+				66532C342BAF0A14000A58B4 /* 3-c-MatchedGeometry-interactive.swift */,
+			);
+			path = "Part-1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +221,12 @@
 			dependencies = (
 			);
 			name = "Interactive-transitions-SwiftUI";
+			packageProductDependencies = (
+				66BB59152BCDD49F000E499A /* CustomNavigationStack */,
+				66BB59172BCDD49F000E499A /* MatchedGeometryPresentation */,
+				66B606BF2BDCF8E700E438A8 /* MatchedGeometryPresentation */,
+				66B606C22BDCF91800E438A8 /* CustomNavigationStack */,
+			);
 			productName = "Interactive-transitions-SwiftUI";
 			productReference = 667A2E9B2B9B599B009BAED3 /* Interactive-transitions-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +255,10 @@
 				Base,
 			);
 			mainGroup = 667A2E922B9B599B009BAED3;
+			packageReferences = (
+				66B606BE2BDCF8E700E438A8 /* XCRemoteSwiftPackageReference "swiftui-matched-geometry-presentation" */,
+				66B606C12BDCF91800E438A8 /* XCRemoteSwiftPackageReference "swiftui-custom-navigation-stack" */,
+			);
 			productRefGroup = 667A2E9C2B9B599B009BAED3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +285,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				667A2EA12B9B599B009BAED3 /* ContentView.swift in Sources */,
-				667A2E9F2B9B599B009BAED3 /* Interactive_transitions_SwiftUIApp.swift in Sources */,
+				667A2EA12B9B599B009BAED3 /* 2-a-MatchedGeometry.swift in Sources */,
+				66BD77922BB7FA8600B69BD5 /* View_makeButton.swift in Sources */,
+				66BF08F82BB372C80083C0A0 /* CaseIterable.swift in Sources */,
+				66BD779C2BB9E26500B69BD5 /* 2-Interactive-Animation.swift in Sources */,
+				66BD77962BB840B100B69BD5 /* View_overlayImage.swift in Sources */,
+				66BD778C2BB764F200B69BD5 /* View_onAnimationCompleted.swift in Sources */,
+				66BD77902BB773BE00B69BD5 /* Binding_not.swift in Sources */,
+				66BD778E2BB7679100B69BD5 /* View_dismissButton.swift in Sources */,
+				66BB59132BCDD40C000E499A /* 3-CustomNavigationStack.swift in Sources */,
+				66532C152BAEA9F3000A58B4 /* 1-Interactive-ScaleTransition.swift in Sources */,
+				66EBEDF12BCA6AE1000ECDA9 /* 1-Pausable-Animation.swift in Sources */,
+				66BD77942BB820F900B69BD5 /* RedactedTextView.swift in Sources */,
+				66BF08FA2BB3738F0083C0A0 /* Button_SystemImage.swift in Sources */,
+				66EBEDF32BCBCE0F000ECDA9 /* 3-b-Transaction-MatchedGeometry.swift in Sources */,
+				66532C392BAF105B000A58B4 /* 1-b-MatchedGeometry-Navigation-Anchor.swift in Sources */,
+				66532C372BAF0AB4000A58B4 /* 1-a-MatchedGeometry-Navigation.swift in Sources */,
+				66BD77992BB9630700B69BD5 /* Color_mix.swift in Sources */,
+				66532C132BAEA623000A58B4 /* 2-b-CornerRadius-Animation.swift in Sources */,
+				667A2E9F2B9B599B009BAED3 /* AppMain.swift in Sources */,
+				66532C312BAEB00E000A58B4 /* 2-c-CornerRadius-MatchedGeometry.swift in Sources */,
+				66532C332BAF045D000A58B4 /* 3-a-MatchedGeometry-isSource.swift in Sources */,
+				66532C3B2BB0C223000A58B4 /* 2-Hero-Layer-Presentation.swift in Sources */,
+				66C7BB9C2BC2D005006B7162 /* 3-MatchedGeometryPresentation.swift in Sources */,
+				66BFE75F2B9CAFC8008897CC /* 1-Animation-Transition-Transaction.swift in Sources */,
+				66532C352BAF0A14000A58B4 /* 3-c-MatchedGeometry-interactive.swift in Sources */,
+				66BD778A2BB6312000B69BD5 /* 2-CustomSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +351,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -242,6 +413,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -266,12 +438,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Interactive-transitions-SwiftUI/Interactive_transitions_SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Interactive-transitions-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = H9EZHJZX4M;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -282,17 +453,18 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quentinfasquel.Interactive-transitions-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,12 +476,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Interactive-transitions-SwiftUI/Interactive_transitions_SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Interactive-transitions-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = H9EZHJZX4M;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -320,17 +491,18 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quentinfasquel.Interactive-transitions-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -359,6 +531,46 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66B606BE2BDCF8E700E438A8 /* XCRemoteSwiftPackageReference "swiftui-matched-geometry-presentation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quentinfasquel/swiftui-matched-geometry-presentation";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		66B606C12BDCF91800E438A8 /* XCRemoteSwiftPackageReference "swiftui-custom-navigation-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quentinfasquel/swiftui-custom-navigation-stack";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66B606BF2BDCF8E700E438A8 /* MatchedGeometryPresentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66B606BE2BDCF8E700E438A8 /* XCRemoteSwiftPackageReference "swiftui-matched-geometry-presentation" */;
+			productName = MatchedGeometryPresentation;
+		};
+		66B606C22BDCF91800E438A8 /* CustomNavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66B606C12BDCF91800E438A8 /* XCRemoteSwiftPackageReference "swiftui-custom-navigation-stack" */;
+			productName = CustomNavigationStack;
+		};
+		66BB59152BCDD49F000E499A /* CustomNavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CustomNavigationStack;
+		};
+		66BB59172BCDD49F000E499A /* MatchedGeometryPresentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MatchedGeometryPresentation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 667A2E932B9B599B009BAED3 /* Project object */;
 }
